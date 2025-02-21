@@ -1,0 +1,27 @@
+import java.util.Arrays;
+import java.util.Scanner;
+ public class StudentGrade{
+   public static void main(String... args){
+
+   Scanner input = new Scanner(System.in);
+
+   System.out.println("How many students do we have: ");
+   int studentNumber = input.nextInt();
+
+   System.out.println("How many subject do they offer: ");
+   int subjects = input.nextInt();
+
+   
+  for (int count = 0; count < studentNumber; count++){
+    for (int counter = 0; counter < subjects; counter++){
+
+      System.out.println("Enter score for student" + " " count);
+      System.out.println("Enter the score for subject" + " " counter);
+
+      System.out.println(" Saving >>>>>>>>>>>>>>>>>>>
+                           Saving successfully ");  
+         
+         }
+       }
+    }   
+ }
